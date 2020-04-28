@@ -1,9 +1,12 @@
 ##
 # circle.py
 # Calculate circumference and area of a circle
+# v0.2
 
-radius = 5
+import math
 
-print("Circumference: " , 2 * radius * 3.14)
+radius = int(input(" Enter radius: " ))
 
-print("Area: " , 3.14 * radius ** 2)
+print("Circumference: " , 2 * radius * math.pi)
+
+print("Area: " , math.pi * radius ** 2)
